@@ -4,10 +4,10 @@ body {
     margin: auto;
     font-family: "Source Sans Pro",sans-serif;
     background-color: #eee;
+    color: #000;
 }
 header {
     font-family: "Abril Fatface", serif;
-    
 }
 .date {
     font-size: 1em;
@@ -47,6 +47,7 @@ h5.author{
 }
 .newspaper-container {
     margin: auto; 
+    margin-top: 2em;
     width: 60%;
     background-color: white;
     box-shadow: .5em .5em .5em .5em #ddd;
@@ -60,6 +61,9 @@ header h1{
 main img{
     width: 100%;
 }
+p {
+    padding: 1em;
+}
 .more-articles img{
     width: 100%;
 }
@@ -72,21 +76,51 @@ main img{
 .more-articles p{
     color: #777;
 }
- .more-articles {
+.more-articles {
     border-top: 2px solid #777;
 } 
-footer{
+#footNav{
     margin: auto;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 1em;
     display: inline-block; 
     color: #777;
     border-top: 5px double #777;
+    border-bottom: 2px solid #777;
+    /* justify-content: space-between; */
 }
-footer ul{
+#rightBottomSideNav{
+    border-left: 2px solid #777;
     display: inline-block;
+    position: relative;
+    right: 0px;
 }
-footer ul li{
+#footNav ul{
+    display: inline-block;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+#footNav ul li{
     display: block;
     text-decoration: none;
+    text-align: left;
+}
+#footNav h2{
+    font-family: "Abril Fatface", serif;
+    color: #000;
+    text-align: left;
+}
+#leftFooter{
+    display: inline-block;
+}
+#rightFooter{
+    display: inline-block;
+    float: right;
+}
+footer ul li{
+ display: inline-block;
+ text-align: center;
+}
+footer{
+    text-align: center;
 }
