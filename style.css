@@ -29,11 +29,16 @@ ul li{
     padding: .5em .5em;
 }
 
-nav {
+nav{
     margin: auto;
     text-align: center;
     border-top: 2px solid #777;
     border-bottom: 5px double #777;
+    /* font-size: 1.25em; */
+}
+.topNav {
+        font-size: 1.25em; 
+    
 }
 h5.author{
     font-size: 1em;
@@ -69,15 +74,21 @@ p {
 }
 .more-articles section{
     /* align-content: center; */
-    width: 40%;
+    width: 20%;
     display: inline-block;
     padding: 0px 50px;
+    
 }
 .more-articles p{
     color: #777;
 }
 .more-articles {
+    display: inline-block;
+    width: 100%;
     border-top: 2px solid #777;
+    margin: auto;
+    padding-left: 5em;
+    /* justify-content: center; */
 } 
 #footNav{
     margin: auto;
@@ -87,6 +98,7 @@ p {
     color: #777;
     border-top: 5px double #777;
     border-bottom: 2px solid #777;
+    padding-bottom: 2em;
     /* justify-content: space-between; */
 }
 #rightBottomSideNav{
@@ -112,6 +124,7 @@ p {
 }
 #leftFooter{
     display: inline-block;
+    float: left;
 }
 #rightFooter{
     display: inline-block;
